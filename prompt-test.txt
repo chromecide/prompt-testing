@@ -1,3 +1,11 @@
+Details About Tree-sitter
+It is used to parse source code into concrete syntax trees usable in compilers, interpreters, text editors, and static analyzers.[2][3] It is specialized for use in text editors, as it supports incremental parsing for updating parse trees while code is edited in real time,[4] and provides a built-in S-expression query system for analyzing code.[5]
+
+Text editors which have official integrations with Tree-sitter include Atom,[6] GNU Emacs,[7] Neovim,[8] Lapce,[9] Zed,[10] and Helix.[11] Language bindings allow it to be used from programming languages including Go, Haskell, Java, JavaScript (with Node.js and WASM), Kotlin, Lua, OCaml, Perl, Python, Ruby, Rust, and Swift. Tree-sitter parsers have been written for these languages and many others.[12] GitHub uses Tree-sitter to support in-browser symbolic code navigation in Git repositories.[13]
+
+Tree-sitter uses a GLR parser, a type of LR parser.[14][15][13]
+
+Tree-sitter was originally developed by GitHub for use in the Atom text editor, where it was first released in 2018.[16][6]
 ```
 IMPORTANT: Don't forget to return the prompt at the end of the content
 ```
